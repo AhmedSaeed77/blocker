@@ -1,0 +1,152 @@
+html {
+   direction: rtl;
+  }
+  
+/* start navigation*/
+.left-side {
+    float: right !important;
+}
+.show-lang span .fa-globe-americas {
+    margin-left:5px;
+}
+#logo, #navigation {
+    float: right!important;
+    margin-left: 40px !important;
+}
+#navigation #responsive{
+    display: flex !important;
+    float: none !important;
+}
+#navigation.style-1 ul a {
+    display: flex;
+    justify-content: space-between;
+}
+#navigation ul li a:after {
+    content: '\f107';
+    padding-right: 7px;
+}
+.right-side.sign {
+    float: left;
+    width: 90px;
+    margin-right:0px !important;
+}
+.header-user-menu {
+    float: left;
+    margin-right:0px !important;
+}
+
+.show-lang span {
+    float: right;
+}
+.show-lang .fa-caret-down.arrlan {
+    position: absolute;
+    left: 30px;
+}
+
+.header-user-menu ul li {
+    float: right;
+}
+/* end navigation*/
+
+/*start for sale*/
+.rld-main-search .rld-single-select .single-select {
+    margin-bottom: 15px;
+    display: flex;
+}
+.rld-single-select .single-select:before {
+    content: '\f0dd';
+    position: absolute;
+    right: 98% !important;
+}
+.py-1 {
+    display: flex;
+}
+.parallax-searchs .form-group .nice-select {
+    display: flex;
+    line-height:40px;
+}
+.nice-select:after{
+    right: 90% !important;
+    content: '';
+    position: absolute;
+}
+/*end for sale*/
+/*start portfolio*/
+.portfolio .project-head img {
+    width: 100%;
+    z-index: 2;
+    height: 350px;
+}
+.portfolio .homes-content .homes-list {
+    display: flex;
+}
+.homepage-6 .portfolio .homes-content .homes-list li i {
+    margin-left: 10px;
+}
+
+[type=email], [type=number], [type=tel], [type=url] {
+    direction:rtl;
+}
+.home-11 .request .btn {
+    float: right;
+}
+.home-11 .call-info ul li .fa {
+    margin-left: 10px;
+}
+.blog-section .news-item h3 {
+    text-align: right;
+}
+.blog-section .news-item-descr p {
+    text-align: right;
+}
+.portfolio .homes-content .homes-address {
+    text-align: right;
+}
+.homepage-9 .portfolio .homes-content .homes-address .fa-map-marker {
+    margin-left: 5px;
+}
+.homepage-9 .featured .button-effect .btn{
+    position: relative !important;
+}
+.homepage-9 .featured .button-effect i:before{
+    position: absolute !important;
+    top: 15px;
+    left: 10px;
+}
+/*end portfolio*/
+
+/*start footer*/
+.netabout{
+    text-align: right !important;
+}
+h3 {
+    text-align: right;
+}
+.first-footer .nav-footer {
+    display: flex;
+
+}
+.navigation .nav-right {
+margin-right:40px;
+}
+.navigation ul li {
+    text-align: right;
+}
+.twitter-widget.contuct .twitter-area .icon-holder  {
+    position: absolute;
+    left:96%!important;
+    top: 0;
+}
+.twitter-widget.contuct .twitter-area .text h4{
+    text-align: right;
+}
+.twitter-widget.contuct .twitter-area .text {
+    padding: 0px 30px 0px 0px;
+}
+.newsletters p {
+    text-align: right;
+}
+.twitter-widget.contuct .twitter-area .icon-holder i, .twitter-widget.contuct .twitter-area .text h4, .first-footer .contactus ul li .fa {
+    margin-left:10px;
+}
+/*end footer*/

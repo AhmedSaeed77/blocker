@@ -1,0 +1,51 @@
+ahmed$@eed@cr7##
+
+pelixaty@ema-sofia.eu
+
+AhmedCR7
+
+5253011119086601015
+
+phpstorm
+asdasd77@asdasd77@
+
+github
+ahmedsaeed1996cr7asd
+github
+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
+
+
+zooom
+asdasdasd7788AA
+
+[oW8NMdvcgqblxyJNpBD2VPRHWclGX56BxkFonMr3XMMejNIoBT46faZciaqYBji5
+
+
+
+
+ <script>
+  $(document).ready(function(){
+
+    var bar = $('.bar');
+    var precent = $('.precent');
+
+    $('form').ajaxForm({
+
+        beforeSend:function(){
+          var precentval = '0%';
+          bar.width(precentval);
+          precent.html('precentval');
+        },
+        uploadProgress:function(event,positio,total,precentcomplete){
+          var precentval = precentcomplete + '%' ;
+          bar.width(precentval);
+          precent.html('precentval');
+        },
+        complete:function(){
+          alert('file upload success');
+        }
+    });
+
+  }) ;
+
+</script>
